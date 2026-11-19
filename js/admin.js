@@ -1,6 +1,7 @@
+import { showError } from './feedback.js';
 const $=id=>document.getElementById(id);
 let user, wards=[], events=[];
-const tell=(text,error=false)=>{$('message').textContent=text;$('message').classList.toggle('error',error);};
+const tell=(text,error=false)=>{$('message').textContent=error?'':text;if(error)showError(text);};
 async function api(path,method='GET',data) {
  const response=await fetch('/api/'+path,{method,headers:data?{'Content-Type':'application/json'}:{},body:data?JSON.stringify(data):undefined});
  let value;try{value=await response.json();}catch{throw new Error('The account service is not activated yet.');}
