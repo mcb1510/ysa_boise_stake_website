@@ -69,7 +69,9 @@ document.querySelectorAll('.filter').forEach(button => button.onclick = () => {
 });
 
 try {
-  const responses = await Promise.all(['data/wards.json','data/events.json'].map(url => fetch(url)));
+  let eventResponse = await fetch('/api/events');
+  if (eventResponse.status === 404 || (eventResponse.ok && !eventResponse.headers.get('content-type')?.includes('application/json'))) eventResponse = await fetch('data/events.json');
+  const responses = [await fetch('data/wards.json'), eventResponse];
   if(responses.some(r => !r.ok)) throw new Error('Calendar data could not be loaded');
   const [wardData, eventData] = await Promise.all(responses.map(r => r.json()));
   wards = wardData;

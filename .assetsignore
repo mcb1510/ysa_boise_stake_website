@@ -1,0 +1,7 @@
+worker/
+migrations/
+tests/
+*.md
+wrangler*
+.git/
+.openai/
