@@ -1,7 +1,7 @@
 import { showError } from './feedback.js';
 const $=id=>document.getElementById(id);
 let user, wards=[], events=[];
-let eventFilter='all';
+let eventFilter='stake';
 const filterLabel=document.createElement('label');
 filterLabel.textContent='Show events for';
 const eventFilterSelect=document.createElement('select');
