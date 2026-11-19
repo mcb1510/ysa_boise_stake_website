@@ -1,4 +1,5 @@
 :root { --ink:#18314c; --muted:#70849a; --line:#dce8f2; --paper:#f8fbfe; --forest:#0491c4; --sage:#e2f1fb; --sun:#f1b85d; --coral:#e27b68; --sky:#78b9dc; --plum:#a994c7; --blue:#658ad1; --pink:#dc91ac; }
+.signin{background:transparent;color:var(--forest);padding:10px 0 10px 12px;font-size:14px;font-weight:500;white-space:nowrap}
     * { box-sizing:border-box } body { margin:0; color:var(--ink); font-family: ui-rounded, "SF Pro Rounded", "Avenir Next", Avenir, system-ui, sans-serif; background:linear-gradient(145deg,#eaf5fb,#fbfdff 46%,#e7f2f8); min-height:100vh; }
     button { font:inherit; color:inherit; border:0; cursor:pointer; -webkit-tap-highlight-color:transparent; }
     .app { max-width:600px; margin:auto; min-height:100vh; background:rgba(251,253,255,.9); box-shadow:0 0 50px rgba(30,76,110,.08); padding:18px 16px 32px; }
