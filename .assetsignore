@@ -1,9 +1,12 @@
 worker/
+scripts/
 migrations/
 tests/
 *.md
 wrangler*
 .git/
 .openai/
-
-scripts/
+.wrangler/
+node_modules/
+.env*
+.dev.vars*
