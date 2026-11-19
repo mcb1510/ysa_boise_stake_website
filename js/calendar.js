@@ -1,3 +1,4 @@
+import { showError } from './feedback.js';
 // Display dates are local calendar dates; never parse YYYY-MM-DD as UTC.
 const $ = id => document.getElementById(id);
 const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Boise', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date());
@@ -84,4 +85,5 @@ try {
 } catch(error) {
   console.error(error); render(); $('count').textContent = '';
   $('events').textContent = 'The calendar could not load. Please refresh or try again later.';
+  showError('The calendar could not load. Please refresh or try again later.');
 }
