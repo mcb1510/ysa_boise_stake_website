@@ -7,12 +7,103 @@
   <title>Stake Calendar</title>
   <link rel="stylesheet" href="css/calendar.css">
 </head>
-<body><main class="app">
-  <header><div class="brand"><span class="mark">YSA</span><span>YSA Boise Stake</span></div><button class="signin" data-session-link aria-label="Sign in to manage events" onclick="location.href='admin.html'">Sign In</button></header>
-  <section aria-label="Calendar"><div class="controls"><h2 id="monthTitle">November 2026</h2><div class="control-buttons"><button class="round" id="prev" aria-label="Previous month">‹</button><button class="round" id="next" aria-label="Next month">›</button></div></div><div class="calendar"><div class="weekdays"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div><div class="days" id="calendarDays"></div></div></section>
-  <div class="filters" id="filters"><button class="filter active" data-filter="all">All calendars</button><button class="filter" id="todayBtn" data-filter="today">Today</button><button class="filter" data-filter="Stake">Stake</button><button class="filter" data-filter="River Valley">River Valley</button><button class="filter" data-filter="Overland">Overland</button><button class="filter" data-filter="Owyhee">Owyhee</button><button class="filter" data-filter="Table Rock">Table Rock</button><button class="filter" data-filter="Eagle Island">Eagle Island</button><button class="filter" data-filter="North Linder">North Linder</button></div>
-  <section><div class="agenda-head"><h2 id="dateTitle">Saturday, November 14</h2><span id="count">3 events</span></div><div class="events" id="events"></div></section>
-</main>
-<div class="modal-backdrop" id="eventModal" aria-hidden="true"><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="grabber"></div><div class="modal-top"><div><div class="event-label" id="modalWard"><i></i><span></span></div><h2 id="modalTitle">Event details</h2></div><button class="close" id="closeModal" aria-label="Close event details">×</button></div><dl class="details"><div class="detail"><dt>Event</dt><dd id="detailEvent"></dd></div><div class="detail"><dt>Date</dt><dd id="detailDate"></dd></div><div class="detail"><dt>Time</dt><dd id="detailTime"></dd></div><div class="detail"><dt>Place</dt><dd id="detailPlace"></dd></div><div class="detail"><dt>Description</dt><dd id="detailDescription"></dd></div></dl></section></div>
-<script type="module" src="js/session-nav.js"></script>
-<script type="module" src="js/calendar.js"></script></body></html>
+<body>
+  <main class="app">
+    <header>
+      <div class="brand">
+        <span class="mark">YSA</span>
+        <span>YSA Boise Stake</span>
+      </div>
+      <button
+        class="signin"
+        data-session-link
+        aria-label="Sign in to manage events"
+        onclick="location.href='admin.html'"
+      >Sign In</button>
+    </header>
+
+    <section aria-label="Calendar">
+      <div class="controls">
+        <h2 id="monthTitle">November 2026</h2>
+        <div class="control-buttons">
+          <button class="round" id="prev" aria-label="Previous month">‹</button>
+          <button class="round" id="next" aria-label="Next month">›</button>
+        </div>
+      </div>
+      <div class="calendar">
+        <div class="weekdays">
+          <span>Sun</span>
+          <span>Mon</span>
+          <span>Tue</span>
+          <span>Wed</span>
+          <span>Thu</span>
+          <span>Fri</span>
+          <span>Sat</span>
+        </div>
+        <div class="days" id="calendarDays"></div>
+      </div>
+    </section>
+
+    <div class="filters" id="filters">
+      <button class="filter active" data-filter="all">All calendars</button>
+      <button class="filter" id="todayBtn" data-filter="today">Today</button>
+      <button class="filter" data-filter="Stake">Stake</button>
+      <button class="filter" data-filter="River Valley">River Valley</button>
+      <button class="filter" data-filter="Overland">Overland</button>
+      <button class="filter" data-filter="Owyhee">Owyhee</button>
+      <button class="filter" data-filter="Table Rock">Table Rock</button>
+      <button class="filter" data-filter="Eagle Island">Eagle Island</button>
+      <button class="filter" data-filter="North Linder">North Linder</button>
+    </div>
+
+    <section>
+      <div class="agenda-head">
+        <h2 id="dateTitle">Saturday, November 14</h2>
+        <span id="count">3 events</span>
+      </div>
+      <div class="events" id="events"></div>
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="eventModal" aria-hidden="true">
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="grabber"></div>
+      <div class="modal-top">
+        <div>
+          <div class="event-label" id="modalWard">
+            <i></i>
+            <span></span>
+          </div>
+          <h2 id="modalTitle">Event details</h2>
+        </div>
+        <button class="close" id="closeModal" aria-label="Close event details">×</button>
+      </div>
+      <dl class="details">
+        <div class="detail">
+          <dt>Event</dt>
+          <dd id="detailEvent"></dd>
+        </div>
+        <div class="detail">
+          <dt>Date</dt>
+          <dd id="detailDate"></dd>
+        </div>
+        <div class="detail">
+          <dt>Time</dt>
+          <dd id="detailTime"></dd>
+        </div>
+        <div class="detail">
+          <dt>Place</dt>
+          <dd id="detailPlace"></dd>
+        </div>
+        <div class="detail">
+          <dt>Description</dt>
+          <dd id="detailDescription"></dd>
+        </div>
+      </dl>
+    </section>
+  </div>
+
+  <script type="module" src="js/session-nav.js"></script>
+  <script type="module" src="js/calendar.js"></script>
+</body>
+</html>
