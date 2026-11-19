@@ -1,0 +1,192 @@
+{
+  "timezone": "America/Boise",
+  "events": [
+    {
+      "id": "sample-1",
+      "calendarId": "table-rock",
+      "title": "Ward family home evening",
+      "date": "2026-11-02",
+      "startTime": "18:30",
+      "endTime": "20:30",
+      "place": "Table Rock chapel",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-2",
+      "calendarId": "stake",
+      "title": "Stake choir practice",
+      "date": "2026-11-05",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "place": "Stake center",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-3",
+      "calendarId": "owyhee",
+      "title": "Community garden service",
+      "date": "2026-11-07",
+      "startTime": "09:00",
+      "endTime": "11:00",
+      "place": "Owyhee park",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-4",
+      "calendarId": "river-valley",
+      "title": "Youth fireside",
+      "date": "2026-11-08",
+      "startTime": "16:00",
+      "endTime": "18:00",
+      "place": "River Valley chapel",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-5",
+      "calendarId": "north-linder",
+      "title": "Relief Society activity",
+      "date": "2026-11-11",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "place": "North Linder chapel",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-6",
+      "calendarId": "stake",
+      "title": "Stake service project",
+      "date": "2026-11-14",
+      "startTime": "09:00",
+      "endTime": "11:00",
+      "place": "Food bank",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-7",
+      "calendarId": "table-rock",
+      "title": "Baptism service",
+      "date": "2026-11-14",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "place": "Table Rock chapel",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-8",
+      "calendarId": "river-valley",
+      "title": "Fall family activity",
+      "date": "2026-11-14",
+      "startTime": "18:30",
+      "endTime": "20:30",
+      "place": "River Valley pavilion",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-9",
+      "calendarId": "overland",
+      "title": "Game night",
+      "date": "2026-11-14",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "place": "Overland chapel",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-10",
+      "calendarId": "owyhee",
+      "title": "Friendsgiving",
+      "date": "2026-11-14",
+      "startTime": "19:15",
+      "endTime": "21:15",
+      "place": "Owyhee chapel",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-11",
+      "calendarId": "eagle-island",
+      "title": "Ward social",
+      "date": "2026-11-14",
+      "startTime": "19:30",
+      "endTime": "21:30",
+      "place": "Eagle Island chapel",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-12",
+      "calendarId": "north-linder",
+      "title": "Study group",
+      "date": "2026-11-14",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "place": "North Linder chapel",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-13",
+      "calendarId": "eagle-island",
+      "title": "Ward council",
+      "date": "2026-11-18",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "place": "Eagle Island chapel",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-14",
+      "calendarId": "stake",
+      "title": "Young adult social",
+      "date": "2026-11-19",
+      "startTime": "18:30",
+      "endTime": "20:30",
+      "place": "Stake center",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-15",
+      "calendarId": "river-valley",
+      "title": "Ward service day",
+      "date": "2026-11-21",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "place": "River Valley neighborhood",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-16",
+      "calendarId": "overland",
+      "title": "Thanksgiving pie night",
+      "date": "2026-11-24",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "place": "Overland chapel",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    },
+    {
+      "id": "sample-17",
+      "calendarId": "north-linder",
+      "title": "Friendsgiving dinner",
+      "date": "2026-11-28",
+      "startTime": "17:30",
+      "endTime": "19:30",
+      "place": "North Linder chapel",
+      "description": "Sample event — replace with confirmed event details.",
+      "isSample": true
+    }
+  ]
+}
